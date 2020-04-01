@@ -4,12 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "tailwind:watch": "postcss styles.css -o tailwind.css"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "tailwindcss": "^1.2.0"
+  },
+  "devDependencies": {
+    "postcss-cli": "^7.1.0"
   }
 }
